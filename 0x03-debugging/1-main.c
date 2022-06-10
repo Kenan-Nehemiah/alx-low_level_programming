@@ -1,4 +1,4 @@
-#include <studio>
+#include <studio.h>
 
 /**
  * main - causes an infinite loop
@@ -22,3 +22,4 @@ int main(void)
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
+}
