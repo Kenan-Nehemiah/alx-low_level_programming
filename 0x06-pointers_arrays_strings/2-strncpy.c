@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _strcat - a function that copys the strings
- * @dest: an input string
- * @src: an input dtring
- * @n: an input interger
+ * _strncat - Copies at most an inputted number
+ * of bytes from string src into dest.
+ * @dest: the buffer storing the string copy.
+ * @src: a source string.
+ * @n: the max number of bytes to copied from src.
+ *
  * Return: A pointer to the resulting string
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -19,6 +21,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (index = src_len; index < n; index++)
 		dest[index] = '\0';
+	
 	return (dest);
 }
 	
