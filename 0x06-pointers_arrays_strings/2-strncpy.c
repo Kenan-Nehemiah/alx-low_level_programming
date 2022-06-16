@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - Copies at most an inputted number
+ * _strncpy - Copies at most an inputted number
  * of bytes from string src into dest.
  * @dest: the buffer storing the string copy.
  * @src: a source string.
